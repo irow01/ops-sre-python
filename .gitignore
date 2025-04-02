@@ -1,0 +1,7 @@
+logs
+*.pyc
+*.db
+.idea
+venv
+.python-version
+__pycache__

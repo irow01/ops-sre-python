@@ -1,0 +1,55 @@
+<!--邮件正文-->
+<div style="font-family:宋体,微软雅黑,楷体">
+    <table style="margin:40px;border-collapse:collapse;font-size:16px" width=90% border=1 cellpadding=10 cellspacing=0>
+        <tr>
+	    <td colspan=4 align="center">智能云科发布工单</td>
+        </tr>
+        <tr>
+	    <td>概述</td>
+	    <td colspan=3 style="color: blue">{sub}</td>
+        </tr>
+        <tr>
+	    <td>申请人</td>
+	    <td align="center">{operator}</td>
+	    <td align="center">时间</td>
+	    <td align="center">{create_time}</td>
+        </tr>
+        <tr>
+        <td>操作</td>
+	    <td colspan=3 align="center" style="color: green">{desc}</td>
+        </tr>
+        <tr>
+	    <td>环境</td>
+	    <td align="center" style="color: blue">{environment}</td>
+        <td align="center">发布状态</td>
+	    <td align="center" style="color: green">{after_status}</td>
+        </tr>
+        <tr>
+	    <td>项目名称</td>
+	    <td colspan=3>{project}</td>
+        </tr>
+        <tr>
+	    <td>发布内容</td>
+	    <td colspan=3>{describe}</td>
+        </tr>
+        <tr>
+	    <td rowspan=2>审批</td>
+	    <td align="center">产品负责人</td>
+	    <td align="center">开发负责人</td>
+	    <td align="center">测试负责人</td>
+        </tr>
+        <tr>
+	    <td align="center">{PM}</td>
+	    <td align="center">{manager}</td>
+	    <td align="center">{tester}</td>
+        </tr>
+        <tr>
+	    <td>发布工程</td>
+  	    <td colspan=3>{released_list}</td>
+        </tr>
+        <tr>
+	    <td>自动化运维平台访问地址</td>
+  	    <td colspan=3><a href="https://opsre2.i5sesol.com/#/deploy/releaseInfo?id={id}">https://opsre2.i5sesol.com/#/deploy/releaseInfo?id={id}</a></td>
+        </tr>
+</table>
+</div>

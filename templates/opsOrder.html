@@ -1,0 +1,46 @@
+<!--邮件正文-->
+<div style="font-family:宋体,微软雅黑,楷体">
+    <table style="margin:40px;border-collapse:collapse;font-size:16px" width=90% border=1 cellpadding=10 cellspacing=0>
+        <tr>
+	    <td colspan=4 align="center">智能云科运维工单信息</td>
+        </tr>
+        <tr>
+	    <td>概述</td>
+	    <td colspan=3 style="color: blue">{sub}</td>
+        </tr>
+        <tr>
+	    <td>申请人</td>
+	    <td align="center">{operator}</td>
+	    <td align="center">时间</td>
+	    <td align="center">{create_time}</td>
+        </tr>
+        <tr>
+        <td>操作</td>
+	    <td colspan=3 align="center" style="color: green">{desc}</td>
+        </tr>
+        <tr>
+	    <td>项目名称</td>
+	    <td colspan=3>{work_type}</td>
+        </tr>
+        <tr>
+	    <td>变更前经办人</td>
+	    <td align="center">{begin_operator}</td>
+	    <td align="center">变更后经办人</td>
+	    <td align="center">{after_operator}</td>
+        </tr>
+        <tr>
+	    <td>变更前状态</td>
+	    <td align="center" style="color: blue">{begin_status}</td>
+        <td align="center">变更后状态</td>
+	    <td align="center" style="color: green">{after_status}</td>
+        </tr>
+        <tr>
+	    <td>工单介绍</td>
+	    <td colspan=3>{describe}</td>
+        </tr>
+        <tr>
+	    <td>自动化运维平台访问地址</td>
+  	    <td colspan=3><a href="https://opsre2.i5sesol.com/#/order/orderInfo?id={id}&code={work_code}">https://opsre2.i5sesol.com/#/order/orderInfo?id={id}&code={work_code}</a></td>
+        </tr>
+</table>
+</div>

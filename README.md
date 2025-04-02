@@ -1,2 +1,2 @@
-# ops-sre-python
-运维平台python3.7
+# iSESOL运维平台（后端python代码）
+

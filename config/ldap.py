@@ -1,0 +1,6 @@
+LDAP_SERVER_POOL = ["172.20.10.60","172.20.10.61"]
+LDAP_SERVER = "172.20.10.60"
+LDAP_SERVER_PORT = 636
+ADMIN_DN = "ops-sre@isesol.local"
+ADMIN_PASSWORD = "Isesol!987"
+SEARCH_BASE = "dc=isesol,dc=local"
